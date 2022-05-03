@@ -15,6 +15,7 @@ import { useEffect,useMemo, useState } from "react";
             const user={
                 name:item.name,
                 username:item.username,
+                email:item.email,
                 city:item.address.city,
             }
             users.push(user)
